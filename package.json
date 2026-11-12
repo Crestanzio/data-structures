@@ -1,0 +1,19 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "A collection of data structures built from scratch in TypeScript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --watch --experimental-strip-types src/index.ts",
+    "typecheck": "tsc",
+    "test": "vitest",
+    "test:run": "vitest --reporter=verbose"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
